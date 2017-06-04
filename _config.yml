@@ -1,9 +1,10 @@
 # Permalinks
 permalink:           pretty
 
+encoding:            utf-8
 # Setup
 title:               CaiYangmin
-tagline:             The Jekyll Butler
+tagline:             The Blog
 url:                 https://caiyangmin.github.io/
 paginate:            5
 baseurl:             ""
