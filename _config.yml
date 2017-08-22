@@ -1,7 +1,7 @@
 # Site Settings
 encoding: UTF-8
 exclude: ["*.gem", "*.gemspec", "Gemfile", "Gemfile.lock", "node_modules", "Rakefile", "starter-kit", "vendor"]
-lang: en # Language code as defined in _data/i18n.yml. en, en-gb, en-us, zh, zh-cn, zh-tw etc.
+lang: zh # Language code as defined in _data/i18n.yml. en, en-gb, en-us, zh, zh-cn, zh-tw etc.
 permalink: /blog/:year/:month/:day/:title/
 
 whitelist: [jekyll-feed, jekyll-redirect-from, jekyll-seo-tag, jekyll-sitemap]
@@ -27,15 +27,16 @@ title: Simple Texture
 description: "A gem-based responsive simple texture styled Jekyll theme."
 keywords: 'jekyll,theme,gem-based,blog'
 author:
-  name:
+  name: caiyangmin
   job_title:
   location:
-  email:
+  url: https://github.com/caiyangmin
+  email: 18819457397
   social_links:
     - name: facebook
       url:
     - name: github
-      url: https://github.com/yizeng/jekyll-theme-simple-texture
+      url: https://github.com/caiyangmin/caiyangmin.github.io
     - name: instagram
       url:
     - name: linkedin
