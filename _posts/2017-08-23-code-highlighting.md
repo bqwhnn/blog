@@ -8,11 +8,112 @@ redirect_from:
   - /2017/08/23/
 ---
 
-> 这是 [Simple Texture][Simple Texture] 主题的代码模块和高亮功能测试页面
+> 这是 [Simple Texture][Simple Texture] 主题的 [kramdown][kramdown] 格式以及代码模块和高亮功能测试页面
 
-目录索引功能
+目录索引功能（Kramdown table)
 * Kramdown table of contents
 {:toc .toc}
+
+# 日常使用
+
+这是一个段落。
+
+这是一个跳转到我的主页的[链接](https://caiyangmin.github.io)。
+一个[链接](https://caiyangmin.github.io/blog "蔡阳民的博客")同样可以有标题。
+
+这是 **粗体字。**
+
+这是 *斜体字。*
+
+这是 ***加粗斜体字体。***
+
+这是一个注脚[^1]。
+
+这是极少人知道的模仿键盘文本 <kbd>keyboard text</kbd> 标签，还有通常的代码风格标签 `<code>`
+
+这个表示插入文本（下划线） <ins>inserted</ins>
+
+这个同样表示强调斜体文本 _italicize_
+
+这个 tag 会在文本上加上删除线 <strike>strikeout text</strike>
+
+## Blockquotes 引用
+
+> 引用里的段落
+>
+> 以上
+
+### Nested 嵌套
+
+> 这是引用里的一个段落
+> 。
+> > 一个嵌套引用
+> 结束
+
+### Lists inside 引用内的列表
+
+> Unordered Lists
+> * lists one
+> * lists two
+> * lists three
+>
+> Ordered lists
+> 1. lists one
+> 2. lists two
+> 3. lists three
+
+### long lines 长句引用
+> Github Pages可以看成是GitHub免费托管的wiki site，主要是为GitHub repository服务的，让原来乱七八糟的wiki有一个统一的格式，用的MarkDown [Markdown Basics](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)（越来越多的网站，client都转到用 MD语法了，国内的简书，国外的medium）。之所以选择MarkDown，也是为了我们广大程序员，喜好VIM的编辑风格（像黑客一样写作），这样可以通过写简单的plain text，就能在HTML上面解释成漂亮的网页。
+
+## Lists 列表
+
+* list 1 item 1
+  * nested list item 1
+  * nested list item 2
+  * nested list item 3 with blockquote
+> ruby -v
+>
+> tsc -v
+* list 1 item 2
+* list 1 item 3
+
+## Tables 表格
+
+* Table 1
+
+  |-----------------+---------------+---------------+---------------|
+  | Default aligned | Left aligned | Center aligned | Right aligned |
+  |-----------------|:-------------|:---------------|:--------------|
+  | First body part	| Second cell	 | Third cell	    | fourth cell   |
+  | Second line	    | foo	         | **strong**     |	baz           |
+  | Third line	    | quux         | baz            |	bar           |
+  | Footer row	 	 	|              |                |               |
+  |-----------------+--------------+----------------+---------------|
+
+* Table 2
+
+  |---
+  | Default aligned	| Left aligned | Center aligned	| Right aligned |
+  |-|:-|:-|-:
+  | First body part |	Second cell |	Third cell |	fourth cell
+  | Second line |	foo |	strong |	baz
+  | Third line |	quux |	baz |	bar
+  | Footer row
+
+## Horizontal Rules 横线规则
+
+* * *
+
+---
+
+  _  _  _  _
+
+----------------
+
+## Images
+
+![smiley](https://kramdown.gettalong.org/overview.png)
+
 
 # Code Spans
 
