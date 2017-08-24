@@ -30,20 +30,20 @@ gem 是一个 ruby 的包管理系统，使用 gem 可以方便的在本地安�
 安装方法
 > // 在 RubyGems 官网下载压缩包，解压到本地任意位置  
 > // 在 Terminal 中输入  
-> cd your path to RubyGems  // 解压位置  
-> ruby setup.rb
+> $ cd your path to RubyGems  // 解压位置  
+> $ ruby setup.rb
 
 ## 安装 jekyll
 
 类似 nodejs 和 npm 的包安装，使用 gem 安装 jekyll，直接在 Terminal 中输入：
 
-> gem install bundler // 先安装依赖包 bundler  
-> gem install jekyll
+> $ gem install bundler // 先安装依赖包 bundler  
+> $ gem install jekyll
 
 jekyll 模板网站：[Jekyll Themes][Jekyll Themes]
 
 使用模板可能会缺少东西，看错误提示缺什么直接
-> gem install XXXX
+> $ gem install XXXX
 
 ## 网站预览
 
