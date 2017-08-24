@@ -5,7 +5,7 @@ description:
 categories: [tutorials]
 tags: [jekyll, github]
 redirect_from:
-  - /2017/08/23/
+  - /2017/08/24/
 ---
 
 * Kramdown table of contents
@@ -28,16 +28,16 @@ Mac 和 Linux 可以用 Terminal 配合 [yum][yum] 或者 [brew][brew] 这样的
 gem 是一个 ruby 的包管理系统，使用 gem 可以方便的在本地安装 ruby 应用。
 
 安装方法
-> // 在 RubyGems 官网下载压缩包，解压到本地任意位置  
-> // 在 Terminal 中输入  
-> cd your path to RubyGems  // 解压位置  
+> // 在 RubyGems 官网下载压缩包，解压到本地任意位置
+> // 在 Terminal 中输入
+> cd your path to RubyGems  // 解压位置
 > ruby setup.rb
 
 ## 安装 jekyll
 
 类似 nodejs 和 npm 的包安装，使用 gem 安装 jekyll，直接在 Terminal 中输入：
 
-> gem install bundler // 先安装依赖包 bundler  
+> gem install bundler // 先安装依赖包 bundler
 > gem install jekyll
 
 jekyll 模板网站：[Jekyll Themes][Jekyll Themes]
@@ -47,12 +47,12 @@ jekyll 模板网站：[Jekyll Themes][Jekyll Themes]
 
 ## 网站预览
 
-> $ cd your website path  
-> $ jekyll serve  
-> // 一个开发服务器将会运行在 http://localhost:4000/  
+> $ cd your website path
+> $ jekyll serve
+> // 一个开发服务器将会运行在 http://localhost:4000/
 > // 在浏览器输入网址就可以在本地服务器看到网站
 
-# 参考：
+# 参考
 
 [github上利用jekyll搭建自己的blog的操作顺序？](https://www.zhihu.com/question/30018945?sort=created)
 
