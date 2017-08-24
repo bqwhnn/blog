@@ -29,11 +29,8 @@ gem 是一个 ruby 的包管理系统，使用 gem 可以方便的在本地安�
 
 安装方法
 > // 在 RubyGems 官网下载压缩包，解压到本地任意位置
-
 > // 在 Terminal 中输入
-
 > cd your path to RubyGems  // 解压位置
-
 > ruby setup.rb
 
 ## 安装 jekyll
@@ -41,7 +38,6 @@ gem 是一个 ruby 的包管理系统，使用 gem 可以方便的在本地安�
 类似 nodejs 和 npm 的包安装，使用 gem 安装 jekyll，直接在 Terminal 中输入：
 
 > gem install bundler // 先安装依赖包 bundler
-
 > gem install jekyll
 
 jekyll 模板网站：[Jekyll Themes][Jekyll Themes]
@@ -52,11 +48,8 @@ jekyll 模板网站：[Jekyll Themes][Jekyll Themes]
 ## 网站预览
 
 > $ cd your website path
-
 > $ jekyll serve
-
 > // 一个开发服务器将会运行在 http://localhost:4000/
-
 > // 在浏览器输入网址就可以在本地服务器看到网站
 
 # 参考：
