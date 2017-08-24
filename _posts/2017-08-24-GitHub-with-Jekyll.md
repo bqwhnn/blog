@@ -49,7 +49,7 @@ jekyll 模板网站：[Jekyll Themes][Jekyll Themes]
 
 > $ cd your website path
 > $ jekyll serve
-> // 一个开发服务器将会运行在 http://localhost:4000/
+> // 一个开发服务器将会运行在 http://localhost:4000/  
 > // 在浏览器输入网址就可以在本地服务器看到网站
 
 # 参考：
