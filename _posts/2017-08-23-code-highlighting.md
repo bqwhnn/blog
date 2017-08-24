@@ -14,7 +14,17 @@ redirect_from:
 * Kramdown table of contents
 {:toc .toc}
 
-# 日常使用
+# 一级标题
+
+## 二级标题
+
+### 三级标题
+
+#### 四级标题
+
+##### 五级标题
+
+###### 六级标题
 
 这是一个段落。
 
@@ -52,12 +62,12 @@ redirect_from:
 
 ### Lists inside 引用内的列表
 
-> Unordered Lists
+> Unordered Lists 无序列表
 > * lists one
 > * lists two
 > * lists three
 >
-> Ordered lists
+> Ordered lists 有序列表
 > 1. lists one
 > 2. lists two
 > 3. lists three
@@ -100,7 +110,7 @@ redirect_from:
   | Third line |	quux |	baz |	bar
   | Footer row
 
-## Horizontal Rules 横线规则
+## Horizontal Rules 横线/分割线规则
 
 * * *
 
