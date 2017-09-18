@@ -13,6 +13,16 @@ redirect_from:
 
 # Lua 面向对象
 
+## 隐藏 self 参数
+
+用 lua 进行面向对象的编程
+* 声明方法和调用方法统一用 ":"
+* 属性的定义和调用全部用   "."
+
+定义的时候冒号默认接收 self 参数，调用的时候默认传递调用者自身作为参数，而点号要显式传递或接收 self 参数。
+
+## 一个简单的类
+
 ~~~ lua
 function class(classname, super)
 	local superType = type(super)
