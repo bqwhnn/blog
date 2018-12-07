@@ -71,6 +71,7 @@ redirect_from:
 > str = string.gsub(str, "([{,])([%w_]+):", "%1%2=")
 > print(str)
 > "{[1]={1,2,3},[2]={idx2=2,level=60,reward_idx=2001,ring=100},test={[1]=100,[2]=200}"
+> load("return " .. str)()
 
 ### 正则表达式
 
