@@ -25,36 +25,36 @@ redirect_from:
 第三个可选参数 init 指明从哪里开始搜索，默认值为1，可以是负值。
 第四个可选参数 plain 为true 时，关闭模式匹配机制，pattern 作为普通字符串进行匹配。
 
-> string.find(str, '1,2,3')
-> 5 9
-> string.find(str, '%a+')
-> 15 17
-> string.find(str, '(%d+),(%d+),(%d+)')
-> 5 9 "1" "2" "3"
-> string.find(str, '%d', 1, true)
-> nil 
+> string.find(str, '1,2,3')  
+> 5 9  
+> string.find(str, '%a+')  
+> 15 17  
+> string.find(str, '(%d+),(%d+),(%d+)')  
+> 5 9 "1" "2" "3"  
+> string.find(str, '%d', 1, true)  
+> nil   
 
 **string.match(s, pattern[, init])**
 
 在字符串 s 中匹配 pattern，如果匹配成功，若 pattern 没有分组，则返回第一个匹配到的子串，若有分组，则依次返回各个匹配的分组；匹配失败则返回 nil。
 第三个可选参数 init 指明从哪里开始搜索，默认值为1，可以是负值。
 
-> string.match(str, '%d+,%d+,%d+')
-> "1,2,3"
-> string.match(str, '(%d+)(:)([[]%d+)')
-> "1" ":" "[1"
-> string.match(str, '((%d+)(:)([[]%d+))')
-> "1:[1" "1" ":" "[1"
+> string.match(str, '%d+,%d+,%d+')  
+> "1,2,3"  
+> string.match(str, '(%d+)(:)([[]%d+)')  
+> "1" ":" "[1"  
+> string.match(str, '((%d+)(:)([[]%d+))')  
+> "1:[1" "1" ":" "[1"  
 
 **string.gmatch(s, pattern)**
 
 返回一个迭代器函数，每次调用迭代器，会返回下一个匹配到的子串，如果 pattern 中有分组，则返回的是子串对应的分组。
 对这个函数来说，匹配模板前开始的 '^' 不会当成锚点，这样会阻止迭代。
 
-> for s, a in string.gmatch('Hanazawa Kana', '(a(%a)a)') do print(s, a) end
-> "ana" "n"
-> "awa" "w"
-> "ana" "n"
+> for s, a in string.gmatch('Hanazawa Kana', '(a(%a)a)') do print(s, a) end  
+> "ana" "n"  
+> "awa" "w"  
+> "ana" "n"  
 注意：'ana' 匹配成功后，接下来的匹配从 'z' 开始，导致 'z' 没有被正确匹配到。
 
 **string.gsub(s, pattern, repl[, n])**
@@ -65,13 +65,13 @@ redirect_from:
 如果 repl 是函数，则每次匹配时会调用函数，所有捕获到的子串依次作为参数传入。
 
 将 json 字符串转成 lua 字符串
-> str = string.gusb(str, "[[]", "{")
-> str = string.gsub(str, "]", "}")
-> str = string.gusb(str, "([{,])(%d+):", "%1[%2]=")
-> str = string.gsub(str, "([{,])([%w_]+):", "%1%2=")
-> print(str)
-> "{[1]={1,2,3},[2]={idx2=2,level=60,reward_idx=2001,ring=100},test={[1]=100,[2]=200}"
-> load("return " .. str)()
+> str = string.gusb(str, "[[]", "{")  
+> str = string.gsub(str, "]", "}")  
+> str = string.gusb(str, "([{,])(%d+):", "%1[%2]=")  
+> str = string.gsub(str, "([{,])([%w_]+):", "%1%2=")  
+> print(str)  
+> "{[1]={1,2,3},[2]={idx2=2,level=60,reward_idx=2001,ring=100},test={[1]=100,[2]=200}"  
+> load("return " .. str)()  
 
 ### 正则表达式
 
