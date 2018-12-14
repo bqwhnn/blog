@@ -14,7 +14,7 @@ redirect_from:
 # skynet attempt to yield across a C-call boundary 错误问题
 
 ## 解决方法
-检查出问题的服务是否 require `datasheet/multicast/cluser/sharedata/...`，如果有，则必须在 **skynet.start** 之前先 require 一下。
+检查出问题的服务是否 require `datasheet/multicast/cluser/sharedata/...`，如果有，则必须在 skynet.start 之前先 require 一下。
 
 ## 原因
 > 导致 yield across a C-call boundary 的原因  
