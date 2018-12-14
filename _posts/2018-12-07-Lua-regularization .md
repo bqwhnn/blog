@@ -5,7 +5,7 @@ description:
 categories: [tutorials]
 tags: [lua]
 redirect_from:
-  - /2017/09/16
+  - /2018/12/07
 ---
 
 * Kramdown table of contents
