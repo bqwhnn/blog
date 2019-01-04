@@ -2,7 +2,7 @@
 layout: post
 title: "skynet attempt to yield across a C-call boundary 错误问题"
 description:
-categories: [notes]
+categories: [skynet]
 tags: [skynet]
 redirect_from:
   - /2018/12/14/

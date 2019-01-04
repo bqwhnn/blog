@@ -2,8 +2,8 @@
 layout: post
 title: "Jekyll + GitHub Pages 搭建博客流程"
 description:
-categories: [tutorials]
-tags: [jekyll, github]
+categories: [jekyll]
+tags: [jekyll, GitHub]
 redirect_from:
   - /2017/08/24/
 ---

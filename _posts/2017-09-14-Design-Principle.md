@@ -2,7 +2,7 @@
 layout: post
 title: "Head First 设计模式阅读笔记"
 description:
-categories: [notes]
+categories: [设计模式]
 tags: [reading, design pattern]
 redirect_from:
   - /2017/09/14/
