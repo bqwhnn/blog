@@ -73,6 +73,22 @@ Windows 下可以使用 .msi 后缀(在下载列表中可以找到该文件，�
 
 ![go](https://github.com/caiyangmin/caiyangmin.github.io/blob/master/resourses/Go_02.png?raw=true)
 
+插件特性包括：
+
+* Colorization 代码着彩色
+* Completion Lists 代码自动完成（使用gocode）
+* Snippets 代码片段
+* Quick Info 快速提示信息（使用godef）
+* Goto Definition 跳转到定义（使用godef）
+* Find References 搜索参考引用（使用go-find-references）
+* File outline 文件大纲（使用go-outline）
+* Workspace symbol search 工作区符号搜索（使用 go-symbols）
+* Rename 重命名（使用gorename）
+* Build-on-save 保存构建（使用go build和go test）
+* Format 代码格式化（使用goreturns或goimports或gofmt）
+* Add Imports 添加引用（使用 gopkgs）
+* Debugging 调试代码（使用delve）
+
 ## 安装插件
 
 > Ctrl+Shift+p 打开控制面板
