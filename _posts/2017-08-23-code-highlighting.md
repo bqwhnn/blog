@@ -2,8 +2,8 @@
 layout: post
 title: "简单记录 Markdown 语法和代码高亮功能"
 description:
-categories: [Markdown]
-tags: [jekyll, Markdown]
+categories: [markdown]
+tags: [jekyll, markdown]
 redirect_from:
   - /2017/08/23/
 ---

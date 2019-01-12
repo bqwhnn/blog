@@ -2,8 +2,8 @@
 layout: post
 title: "Lua 面向对象"
 description:
-categories: [Lua]
-tags: [Lua]
+categories: [lua]
+tags: [lua]
 redirect_from:
   - /2017/09/16
 ---

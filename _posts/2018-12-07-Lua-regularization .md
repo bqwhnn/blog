@@ -2,8 +2,8 @@
 layout: post
 title: "Lua 正则表达式"
 description:
-categories: [Lua]
-tags: [Lua]
+categories: [lua]
+tags: [lua]
 redirect_from:
   - /2018/12/07
 ---
