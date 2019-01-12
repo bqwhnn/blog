@@ -52,7 +52,7 @@ Windows 下可以使用 .msi 后缀(在下载列表中可以找到该文件，�
 
 文件名: test.go，代码如下：
 
-~~~ go
+``` golang
     package main
 
     import "fmt"
@@ -60,7 +60,7 @@ Windows 下可以使用 .msi 后缀(在下载列表中可以找到该文件，�
     func main() {
         fmt.Println("Hello World!")
     }
-~~~
+```
 
 使用 go 命令执行以上代码输出结果如下：
 
