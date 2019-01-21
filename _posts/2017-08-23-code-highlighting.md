@@ -28,8 +28,8 @@ redirect_from:
 
 这是一个段落。
 
-这是一个跳转到我的主页的[链接](https://caiyangmin.github.io)。
-一个[链接](https://caiyangmin.github.io/blog "我的博客")同样可以有标题。
+这是一个跳转到我的主页的[链接](https://bqwhnn.github.io)。
+一个[链接](https://bqwhnn.github.io/blog "我的博客")同样可以有标题。
 
 这是 **粗体字。**
 

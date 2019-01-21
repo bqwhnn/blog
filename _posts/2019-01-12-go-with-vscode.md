@@ -30,7 +30,7 @@ Go 语言支持以下系统：
 | Mac | go1.x.darwin-amd64-osx10.8.pkg
 | FreeBSD | go1.x.freebsd-amd64.tar.gz
 
-![go install](https://github.com/caiyangmin/caiyangmin.github.io/blob/master/resourses/Go_01.jpg?raw=true)
+![go install](https://github.com/bqwhnn/bqwhnn.github.io/blob/master/resourses/Go_01.jpg?raw=true)
 
 ## UNIX/Linux/Mac OS X, 和 FreeBSD 安装
 
@@ -71,7 +71,7 @@ Windows 下可以使用 .msi 后缀(在下载列表中可以找到该文件，�
 
 下载插件 **Go**
 
-![go](https://github.com/caiyangmin/caiyangmin.github.io/blob/master/resourses/Go_02.png?raw=true)
+![go](https://github.com/bqwhnn/bqwhnn.github.io/blob/master/resourses/Go_02.png?raw=true)
 
 插件特性包括：
 

@@ -13,7 +13,7 @@ redirect_from:
 
 # 使用 github pages
 
-首先在 github 中建立一个基于自己用户名的 repository：比如我建立一个名为 [caiyangmin.github.io][caiyangmin.github.io] 的 repo。
+首先在 github 中建立一个基于自己用户名的 repository：比如我建立一个名为 [bqwhnn.github.io][bqwhnn.github.io] 的 repo。
 
 系统在检测到这样格式的 repo 文件名后，会在 setting 中自动开启 GitHub Pages 功能。之后可以将这个 repo clone 到本地进行修改，在里面上传的网页就是你的网站的内容。
 
@@ -59,7 +59,7 @@ jekyll 模板网站：[Jekyll Themes][Jekyll Themes]
 [jekyll博客搭建之艰辛之路](http://www.jianshu.com/p/27de87d4447e)
 
 
-[caiyangmin.github.io]: https://caiyangmin.github.io
+[bqwhnn.github.io]: https://bqwhnn.github.io
 [jekyll]: http://jekyll.com.cn/
 [Ruby]: https://www.ruby-lang.org/en/
 [yum]: http://yum.baseurl.org/
