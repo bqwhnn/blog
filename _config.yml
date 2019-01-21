@@ -21,7 +21,7 @@ sass:
   style: compressed
 
 # Site Data
-url: https://caiyangmin.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: https://bqwhnn.com # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
 title: Cai Yangmin's Blog
 description: "Personal blog for Cai Yangmin."
@@ -35,7 +35,7 @@ author:
     - name: facebook
       url:
     - name: github
-      url: https://github.com/caiyangmin/caiyangmin.github.io
+      url: https://github.com/bqwhnn/blog
     - name: instagram
       url:
     - name: linkedin
