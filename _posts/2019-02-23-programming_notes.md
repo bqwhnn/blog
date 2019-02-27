@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "随笔"
-description: "记录一些零散的东西"
+title: "编程笔记"
+description: "记录一些编程相关的东西"
 categories: [note]
 tags: [note]
 redirect_from:
