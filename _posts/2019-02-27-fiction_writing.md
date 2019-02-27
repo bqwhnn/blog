@@ -5,7 +5,7 @@ description: "记录一些写作相关的东西"
 categories: [note]
 tags: [note]
 redirect_from:
-  -- /2019/02/23
+  -- /2019/02/27
 ---
 
 * Kramdown table of contents
