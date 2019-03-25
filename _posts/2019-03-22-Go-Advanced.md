@@ -51,3 +51,33 @@ func main() {
 }
 # result: 2
 ```
+
+## 类型声明与方法
+
+从一个现有的非 interface 类型创建新类型，不会继承原有的方法；  
+将原类型以匿名字段的形式嵌到自定义的新的 struct 中，可以使用原类型的方法；  
+使用 interface 类型创建新类型，保留了原类型的方法集。
+
+``` golang
+type Locker1 sync.Mutex
+
+type Locker2 struct {
+    sync.Mutex
+}
+
+type Locker3 sync.Locker
+
+func main() {
+    var locker Locker1
+    locker.Lock() // 报错
+    locker.Unlock() // 报错
+
+    var locker Locker2
+    locker.Lock() // OK
+    locker.Unlock() // OK
+
+    var locker Locker3
+    locker.Lock() // OK
+    locker.Unlock() // OK
+}
+```
