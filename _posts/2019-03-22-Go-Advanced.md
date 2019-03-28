@@ -89,3 +89,7 @@ Go 编译器会根据变量的大小和 "escape analysis" 的结果来决定变�
 在 go build 或 go run 时，加入 -m，能准确分析程序的变量分配的栈堆位置：
 
 > go run -gcflags -m main.go
+
+# 文章
+
+[Go coding in go way](https://tonybai.com/2017/04/20/go-coding-in-go-way/)
