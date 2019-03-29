@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "go module 和 goproxy"
+title: "go modules 和 goproxy"
 description:
 categories: [go]
 tags: [go]
@@ -14,6 +14,8 @@ redirect_from:
 # go module
 
 *Go 1.11* 版本发布之后，官方引入了 *go module* 来解决依赖管理的问题，*go module* 被集成到原生的 *go cmd* 中。
+
+[go modules wiki](https://github.com/golang/go/wiki/Modules)
 
 # goproxy
 
