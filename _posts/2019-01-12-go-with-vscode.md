@@ -165,4 +165,4 @@ Windows 下可以使用 .msi 后缀(在下载列表中可以找到该文件，�
 
 gomod+goproxy
 
-[]()
+[https://bqwhnn.github.io/blog/2019/03/29/GoMod-And-GOPROXY/](https://bqwhnn.github.io/blog/2019/03/29/GoMod-And-GOPROXY/)

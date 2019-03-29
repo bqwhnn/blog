@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "go modules 和 goproxy"
+title: "go module 和 goproxy"
 description:
 categories: [go]
 tags: [go]
