@@ -160,3 +160,9 @@ Windows 下可以使用 .msi 后缀(在下载列表中可以找到该文件，�
 > go install golang.org/x/lint/golint  
 
 至此，插件安装成功，重启 VSCode 即可编写 Go。
+
+# 后续更新，更好的解决方案，一键解决 go get golang.org/x 包失败
+
+gomod+goproxy
+
+[]()
