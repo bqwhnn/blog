@@ -17,6 +17,8 @@ redirect_from:
 
 [go modules wiki](https://github.com/golang/go/wiki/Modules)
 
+[使用 Go Module](https://lingchao.xin/post/using-go-modules.html)
+
 # goproxy
 
 *Go 1.00* 版本还新增了 *GOPROXY* 环境变量。如果设置了该变量，下载源代码时将会通过这个环境变量设置的代理地址，而不再是以前的直接从代码库下载。我们可以通过这个解决之前获取 *go get golang.org/x* 包失败的问题。
