@@ -177,3 +177,5 @@ func main() {
 [Go coding in go way](https://tonybai.com/2017/04/20/go-coding-in-go-way/)
 
 [Go: the Good, the Bad and the Ugly](https://studygolang.com/articles/12907)
+
+[Golang FAN 模式](https://segmentfault.com/a/1190000017182416)
