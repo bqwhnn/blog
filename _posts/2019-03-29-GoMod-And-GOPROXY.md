@@ -5,7 +5,7 @@ description:
 categories: [go]
 tags: [go]
 redirect_from:
-  -- /2019/02/29
+  -- /2019/03/29
 ---
 
 * Kramdown table of contents

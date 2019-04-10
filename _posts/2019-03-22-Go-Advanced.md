@@ -96,54 +96,14 @@ Go 编译器会根据变量的大小和 "escape analysis" 的结果来决定变�
 
 题目描述: 编写一个程序，开启 3 个线程 A,B,C，这三个线程的输出分别为 A、B、C，每个线程将自己的 输出在屏幕上打印 10 遍，要求输出的结果必须按顺序显示。如：ABCABCABC....
 
+关键点：  
+1. 开 3 个线程
+2. 每个线程将自己的输出打印
+3. 每个线程都打印 10 遍
+
 ``` golang
 package main
 
-import (
-    "fmt"
-    "time"
-)
-
-func repeatin(ch chan string, s string) {
-    for i := 1; i <= 30; i++ {
-        ch <- s
-    }
-}
-
-func main() {
-    ch1 := make(chan string)
-    ch2 := make(chan string)
-    ch3 := make(chan string)
-
-    go func() {
-        var c1 <-chan string = ch1
-        var c2 <-chan string
-        var c3 <-chan string
-
-        for {
-            select {
-            case val := <-c1:
-                fmt.Print(val)
-                c1 = nil
-                c2 = ch2
-            case val := <-c2:
-                fmt.Print(val)
-                c2 = nil
-                c3 = ch3
-            case val := <-c3:
-                fmt.Print(val)
-                c3 = nil
-                c1 = ch1
-            }
-        }
-    }()
-
-    go repeatin(ch1, "A")
-    go repeatin(ch2, "B")
-    go repeatin(ch3, "C")
-
-    time.Sleep(1 * time.Second)
-}
 ```
 
 在一个值为 nil 的 channel 上发送和接收数据将永久阻塞，利用这个死锁的特性，可以用在 select 中动态地选择发送或接收的 channel。
