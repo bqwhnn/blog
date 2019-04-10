@@ -104,6 +104,38 @@ Go 编译器会根据变量的大小和 "escape analysis" 的结果来决定变�
 ``` golang
 package main
 
+func main() {
+    ch1 := make(chan string)
+    ch2 := make(chan string)
+    ch3 := make(chan string)
+    done := make(chan struct{})
+
+    go func() {
+        for {
+            print(<-ch1)
+            ch2 <- "B"
+        }
+    }()
+
+    go func() {
+        for {
+            print(<-ch2)
+            ch3 <- "C"
+        }
+    }()
+
+    go func() {
+        for i := 1; i <= 10; i++ {
+            print(<-ch3)
+            ch1 <- "A"
+        }
+        done <- struct{}{}
+    }()
+
+    ch1 <- "A"
+
+    <-done
+}
 ```
 
 在一个值为 nil 的 channel 上发送和接收数据将永久阻塞，利用这个死锁的特性，可以用在 select 中动态地选择发送或接收的 channel。
