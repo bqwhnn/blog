@@ -94,6 +94,10 @@ Go 编译器会根据变量的大小和 "escape analysis" 的结果来决定变�
 
 ## nil channel
 
+在一个值为 nil 的 channel 上发送和接收数据将永久阻塞，利用这个死锁的特性，可以用在 select 中动态地选择发送或接收的 channel。
+
+## 实现同步
+
 题目描述: 编写一个程序，开启 3 个线程 A,B,C，这三个线程的输出分别为 A、B、C，每个线程将自己的 输出在屏幕上打印 10 遍，要求输出的结果必须按顺序显示。如：ABCABCABC....
 
 关键点：  
@@ -102,8 +106,6 @@ Go 编译器会根据变量的大小和 "escape analysis" 的结果来决定变�
 3. 每个线程都打印 10 遍
 
 ``` golang
-package main
-
 func main() {
     ch1 := make(chan string)
     ch2 := make(chan string)
@@ -138,7 +140,102 @@ func main() {
 }
 ```
 
-在一个值为 nil 的 channel 上发送和接收数据将永久阻塞，利用这个死锁的特性，可以用在 select 中动态地选择发送或接收的 channel。
+进一步思考：
+
+编写一个程序，开启 N 个线程 A,B,C...，这 N 个线程的输出分别为 A、B、C...，每个线程将自己的输出在屏幕上打印 M 遍，要求输出的结果必须按顺序显示。如：ABC...ABC...ABC...
+其中 N <= 1000, M <= 1000
+
+``` golang
+var (
+    N = 3
+    M = 10
+)
+
+func main() {
+    // wait 表示等待信号的管道，signal 表示发送信号的管道
+    var wait, signal, firstWait, lastSignal chan struct{}
+
+    wait = make(chan struct{})
+    firstWait = wait // 从主 goroutine 发送到第一个
+
+    for i := 0; i < N; i++ {
+        signal = make(chan struct{})
+        go echo(i, wait, signal)
+        wait = signal // 通过这个连接两个 goroutine
+    }
+
+    lastSignal = signal // 最后一个把信号发回主 goroutine
+
+    for i := 0; i < M; i++ {
+        firstWait <- struct{}{}
+        <-lastSignal
+    }
+
+    close(firstWait) // 关闭管道，不再接收数据
+}
+
+func echo(num int, wait chan struct{}, signal chan struct{}) {
+    letter := string('A' + num)
+
+    for _ = range wait {
+        fmt.Println(letter)
+        signal <- struct{}{}
+    }
+
+    close(signal)
+}
+```
+
+## FanIn
+
+通过将多个输入 channel 多路复用到单个处理 channel 的方式，一个函数能够从多个输入 channel 中读取数据并处理。当所有的输出 channel 都关闭的时候，单个处理 channel 也会关闭。这就叫做扇入。
+
+这里主要将 N 个 channel 的输出输入到一个 channel 中。
+
+``` golang
+var (
+    N = 3
+    M = 10
+)
+
+func gen(v string, times int) <-chan string {
+	ch := make(chan string)
+	go func() {
+		defer close(ch)
+		for i := 0; i < times; i++ {
+			ch <- v
+		}
+	}()
+	return ch
+}
+
+func fanIn(times int, inputs []<-chan string) <-chan string {
+	ch := make(chan string)
+	go func() {
+		defer close(ch)
+		for i := 0; i < times; i++ {
+			for _, input := range inputs {
+				v := <-input
+				ch <- v
+			}
+		}
+	}()
+	return ch
+}
+
+func main() {
+	times := M
+	inputs := make([]<-chan string, 0, N)
+	for i := 0; i < N; i++ {
+		threadName := string('A' + i)
+		inputs = append(inputs, gen(threadName, times))
+	}
+	for char := range fanIn(times, inputs) {
+		fmt.Println(char)
+	}
+}
+```
+
 
 # 网站
 
