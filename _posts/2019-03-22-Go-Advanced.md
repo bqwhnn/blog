@@ -253,6 +253,8 @@ func main() {
 
 [Go 夜读](https://github.com/developer-learning/reading-go)
 
+[Go 夜读](https://reading.developerlearning.cn/)
+
 [Go's Declaration Syntax, 为什么类型在变量后面](https://blog.go-zh.org/gos-declaration-syntax)
 
 [Defer, Panic, and Recover](https://blog.go-zh.org/defer-panic-and-recover)
