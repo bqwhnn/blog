@@ -18,6 +18,7 @@ UNIX环境高级编程（第3版）| https://book.douban.com/subject/25900403/ |
 计算机程序的构造和解释 | https://book.douban.com/subject/1148282/ | 
 TCP/IP详解 卷1：协议 | https://book.douban.com/subject/1088054/ | 
 算法导论 | https://book.douban.com/subject/20432061/ | 
+MySQL必知必会 | https://book.douban.com/subject/3354490/ | 
 
 ## 思想
 
