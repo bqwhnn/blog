@@ -30,3 +30,8 @@ redirect_from:
 通过置空这个环境变量来关闭:
 
 > export GOPROXY=
+
+
+新发现的访问速度更快的 GOPROXY 地址
+
+> export GOPROXY=https://goproxy.cn
