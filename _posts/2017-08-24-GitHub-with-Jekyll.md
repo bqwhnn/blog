@@ -54,9 +54,8 @@ jekyll 模板网站：[Jekyll Themes][Jekyll Themes]
 
 # 参考
 
-[github上利用jekyll搭建自己的blog的操作顺序？](https://www.zhihu.com/question/30018945?sort=created)
-
-[jekyll博客搭建之艰辛之路](http://www.jianshu.com/p/27de87d4447e)
+* [github上利用jekyll搭建自己的blog的操作顺序？](https://www.zhihu.com/question/30018945?sort=created)
+* [jekyll博客搭建之艰辛之路](http://www.jianshu.com/p/27de87d4447e)
 
 
 [bqwhnn.github.io]: https://bqwhnn.github.io

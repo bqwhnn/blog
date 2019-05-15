@@ -59,5 +59,6 @@ redirect_from:
 
 因为机器使用补码, 所以对于编程中常用到的32位*int*类型, 可以表示范围是: [-2<sup>31</sup>, 2<sup>31</sup>-1] 因为第一位表示的是符号位.而使用补码表示时又可以多保存一个最小值。
 
+# 参考链接
 
-[原码、反码、补码知识详细讲解](https://blog.csdn.net/zl10086111/article/details/80907428)
+* [原码、反码、补码知识详细讲解](https://blog.csdn.net/zl10086111/article/details/80907428)

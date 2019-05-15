@@ -87,3 +87,8 @@ main() {
 ```
 
 分析结果，在80X86平台上，系统将多字节中的低位存储在变量起始地址，使用小端法。htonl将i_num转换成网络字节序，可见网络字节序是大端法。
+
+# 参考链接
+
+* [理解字节序](http://www.ruanyifeng.com/blog/2016/11/byte-order.html)
+* [C语言中大端字节序与小端字节序的转化](https://blog.csdn.net/yishengzhiai005/article/details/39672529)

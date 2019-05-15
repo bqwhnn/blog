@@ -247,36 +247,20 @@ func main() {
 2. 为了一条复杂语句完全显示在一个代码行中，分号可能被插入在 ')' 或者 '}' 之前
 
 
-# 网站
+# 参考链接
 
-[Go 手册](https://golang.google.cn/)
-
-[Go 手册(中文)](https://go-zh.org/)
-
-[Go 语言中文社区](https://github.com/Go-zh)
-
-[Go 指南](https://tour.go-zh.org/list)
-
-[实效 Go 编程](https://go-zh.org/doc/effective_go.html)
-
-[Go walker](https://gowalker.org/)
-
-[Go 夜读](https://github.com/developer-learning/reading-go)
-
-[Go 夜读](https://reading.developerlearning.cn/)
-
-[Go's Declaration Syntax, 为什么类型在变量后面](https://blog.go-zh.org/gos-declaration-syntax)
-
-[Defer, Panic, and Recover](https://blog.go-zh.org/defer-panic-and-recover)
-
-[Go 切片：用法和本质](https://blog.go-zh.org/go-slices-usage-and-internals#)
-
-[Go 优缺点](https://bluxte.net/musings/2018/04/10/go-good-bad-ugly/)
-
-[Go 文章](https://www.cnblogs.com/qcrao-2018/tag/Golang/)
-
-[Go coding in go way](https://tonybai.com/2017/04/20/go-coding-in-go-way/)
-
-[Go: the Good, the Bad and the Ugly](https://studygolang.com/articles/12907)
-
-[Golang FAN 模式](https://segmentfault.com/a/1190000017182416)
+* [Go 手册](https://golang.google.cn/)
+* [Go 手册(中文)](https://go-zh.org/)
+* [Go 语言中文社区](https://github.com/Go-zh)
+* [Go 指南](https://tour.go-zh.org/list)
+* [实效 Go 编程](https://go-zh.org/doc/effective_go.html)
+* [Go walker](https://gowalker.org/)
+* [Go 夜读](https://github.com/developer-learning/reading-go)
+* [Go 夜读](https://reading.developerlearning.cn/)
+* [Go's Declaration Syntax, 为什么类型在变量后面](https://blog.go-zh.org/gos-declaration-syntax)
+* [Defer, Panic, and Recover](https://blog.go-zh.org/defer-panic-and-recover)
+* [Go 切片：用法和本质](https://blog.go-zh.org/go-slices-usage-and-internals#)
+* [Go 优缺点](https://bluxte.net/musings/2018/04/10/go-good-bad-ugly/)
+* [Go coding in go way](https://tonybai.com/2017/04/20/go-coding-in-go-way/)
+* [Go: the Good, the Bad and the Ugly](https://studygolang.com/articles/12907)
+* [Golang FAN 模式](https://segmentfault.com/a/1190000017182416)
