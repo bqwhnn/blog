@@ -20,6 +20,8 @@ TCP/IP详解 卷1：协议 | https://book.douban.com/subject/1088054/ |
 算法导论 | https://book.douban.com/subject/20432061/ | 
 MySQL必知必会 | https://book.douban.com/subject/3354490/ | ★  
 程序员修炼之道:从小工到专家 | https://book.douban.com/subject/5387402/ |  
+6.824: Distributed Systems | https://pdos.csail.mit.edu/6.824/ | learn english
+
 
 ## 思想
 
