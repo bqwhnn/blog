@@ -23,6 +23,10 @@ MySQL必知必会 | https://book.douban.com/subject/3354490/ | ★
 6.824: Distributed Systems | https://pdos.csail.mit.edu/6.824/ | learn english
 
 
+## 网站
+
+酷壳 – COOLSHELL | https://coolshell.cn/
+
 ## 思想
 
 name | link 
