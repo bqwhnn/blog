@@ -6,7 +6,7 @@
 
 name | link | progress
 :-: | :-: | :-:
-C程序设计语言 | https://book.douban.com/subject/1139336/ | ★☆
+C程序设计语言 | https://book.douban.com/subject/1139336/ | ★
 C++ Primer 中文版（第 5 版）| https://book.douban.com/subject/25708312/ | ★
 Programming In Lua | https://book.douban.com/subject/1750201/ | ★★
 Lua 5.3 参考手册 | http://www.runoob.com/manual/lua53doc/manual.html | ★★
@@ -25,7 +25,7 @@ MySQL必知必会 | https://book.douban.com/subject/3354490/ | ★
 
 ## 网站
 
-酷壳 – COOLSHELL | https://coolshell.cn/
+酷壳 – COOLSHELL | https://coolshell.cn/  
 Udemy | https://www.udemy.com/
 
 ## 思想
