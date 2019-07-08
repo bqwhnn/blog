@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "linux 基础"
+title: "linux 命令"
 description:
-categories: [linux]
+categories: [开发手册]
 tags: [linux]
 redirect_from:
   - /2019/01/05/

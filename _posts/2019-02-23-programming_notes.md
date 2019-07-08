@@ -2,8 +2,8 @@
 layout: post
 title: "编程笔记"
 description: "记录一些编程相关的东西"
-categories: [note]
-tags: [note]
+categories: [编程感悟]
+tags: [server]
 redirect_from:
   -- /2019/02/23
 ---

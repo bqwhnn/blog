@@ -2,7 +2,7 @@
 layout: post
 title: "Jekyll + GitHub Pages 搭建博客流程"
 description:
-categories: [jekyll]
+categories: [开发手册]
 tags: [jekyll, github]
 redirect_from:
   - /2017/08/24/
