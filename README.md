@@ -28,6 +28,7 @@ MySQL必知必会 | https://book.douban.com/subject/3354490/ | | ★
 
 酷壳 – COOLSHELL | https://coolshell.cn/  
 Udemy | https://www.udemy.com/
+coursera | https://www.coursera.org/
 
 ## 思想
 
