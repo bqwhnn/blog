@@ -4,24 +4,28 @@
 
 ## 技术
 
-name | link | website| progress
+name | link | progress
 :-: | :-: | :-: | :-:
-C程序设计语言 | https://book.douban.com/subject/1139336/ | | ★
-C++ Primer 中文版（第 5 版）| https://book.douban.com/subject/25708312/ | | ★
-Programming In Lua | https://book.douban.com/subject/1750201/ | | ★★
-Lua 5.3 参考手册 | http://www.runoob.com/manual/lua53doc/manual.html | | ★★
-Go程序设计语言 | https://book.douban.com/subject/27044219/ | http://www.gopl.io/ | ★
-实效Go编程 | https://go-zh.org/doc/effective_go.html | | ★
-UNIX环境高级编程（第3版）| https://book.douban.com/subject/25900403/ | |
-数据结构与算法分析：C语言描述 | https://book.douban.com/subject/3351237/ | |
-深入理解计算机系统 | https://book.douban.com/subject/5333562/ | |
-计算机程序的构造和解释 | https://book.douban.com/subject/1148282/ | |
-TCP/IP详解 卷1：协议 | https://book.douban.com/subject/1088054/ | |
-算法导论 | https://book.douban.com/subject/20432061/ | |
-MySQL必知必会 | https://book.douban.com/subject/3354490/ | | ★  
-程序员修炼之道：从小工到专家 | https://book.douban.com/subject/5387402/ | |
-6.824: Distributed Systems | https://pdos.csail.mit.edu/6.824/ | | learn english
-算法（第4版） | https://book.douban.com/subject/10432347/ |  https://algs4.cs.princeton.edu/home/ |  
+C程序设计语言 | https://book.douban.com/subject/1139336/ | ★
+C++ Primer 中文版（第5版）| https://book.douban.com/subject/25708312/ | ★
+Programming In Lua | https://book.douban.com/subject/1750201/ | ★★
+Lua 5.3 参考手册 | http://www.runoob.com/manual/lua53doc/manual.html | ★★
+Go程序设计语言 | https://book.douban.com/subject/27044219/<br>http://www.gopl.io/ | ★
+实效Go编程 | https://go-zh.org/doc/effective_go.html | ★
+UNIX环境高级编程（第3版）| https://book.douban.com/subject/25900403/ |
+数据结构与算法分析：C语言描述 | https://book.douban.com/subject/3351237/ |
+深入理解计算机系统 | https://book.douban.com/subject/5333562/ |
+计算机程序的构造和解释 | https://book.douban.com/subject/1148282/ |
+TCP/IP详解 卷1：协议 | https://book.douban.com/subject/1088054/ |
+算法导论 | https://book.douban.com/subject/20432061/ |
+MySQL必知必会 | https://book.douban.com/subject/3354490/ | ★  
+程序员修炼之道：从小工到专家 | https://book.douban.com/subject/5387402/ |
+6.824: Distributed Systems | https://pdos.csail.mit.edu/6.824/ | learn english
+算法（第4版） | https://book.douban.com/subject/10432347/<br>https://algs4.cs.princeton.edu/home/ |
+编程珠玑（第二版） | https://book.douban.com/subject/1230206/ |
+UNIX编程艺术 | https://book.douban.com/subject/1467587/ |
+代码大全（第2版） | https://book.douban.com/subject/1477390/ |
+
 
 
 ## 网站
