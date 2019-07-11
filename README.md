@@ -43,3 +43,4 @@ name | link
 name | link
 :-: | :-:
 如何看病 | https://goldengrape.github.io/posts/ophthalmology/How-to-see-a-doctor/
+B站于医生（小事要注意） | https://www.bilibili.com/video/av56394198/?p=1
