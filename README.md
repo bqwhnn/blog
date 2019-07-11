@@ -5,7 +5,7 @@
 ## 技术
 
 name | link | progress
-:-: | :-: | :-: | :-:
+:-: | :-: | :-:
 C程序设计语言 | https://book.douban.com/subject/1139336/ | ★
 C++ Primer 中文版（第5版）| https://book.douban.com/subject/25708312/ | ★
 Programming In Lua | https://book.douban.com/subject/1750201/ | ★★
