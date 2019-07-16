@@ -21,7 +21,7 @@ TCP/IP详解 卷1：协议 | https://book.douban.com/subject/1088054/ |
 MySQL必知必会 | https://book.douban.com/subject/3354490/ | ★  
 程序员修炼之道：从小工到专家 | https://book.douban.com/subject/5387402/ |
 6.824: Distributed Systems | https://pdos.csail.mit.edu/6.824/ | learn english
-算法（第4版） | https://book.douban.com/subject/10432347/<br>https://algs4.cs.princeton.edu/home/ |
+算法（第4版） | https://book.douban.com/subject/10432347/<br>https://algs4.cs.princeton.edu/home/<br>https://www.geeksforgeeks.org/fundamentals-of-algorithms/#AnalysisofAlgorithms |
 编程珠玑（第二版） | https://book.douban.com/subject/1230206/ |
 UNIX编程艺术 | https://book.douban.com/subject/1467587/ |
 代码大全（第2版） | https://book.douban.com/subject/1477390/ |
