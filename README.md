@@ -24,7 +24,8 @@ MySQL必知必会 | https://book.douban.com/subject/3354490/ | ★
 算法（第4版） | https://book.douban.com/subject/10432347/<br>https://algs4.cs.princeton.edu/home/<br>https://www.geeksforgeeks.org/fundamentals-of-algorithms/#AnalysisofAlgorithms |
 编程珠玑（第二版） | https://book.douban.com/subject/1230206/ |
 UNIX编程艺术 | https://book.douban.com/subject/1467587/ |
-代码大全（第2版） | https://book.douban.com/subject/1477390/ |
+代码大全（第2版） | https://book.douban.com/subject/1477390/ | 
+Google paper | The Google File System<br>Bigtable<br>Google MapReduce |
 
 
 
