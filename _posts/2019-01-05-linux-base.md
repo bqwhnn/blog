@@ -350,3 +350,4 @@ Ctrl + v 进入块选择模式，选中你要删除的行首的注释符号，�
 # 参考链接
 
 * [神奇高效的 linux 命令行](https://blog.51cto.com/ixdba/2353302)
+* [Linux 工具快速教程](https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html#)
