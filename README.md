@@ -36,6 +36,7 @@ name | link
 酷壳 – COOLSHELL | https://coolshell.cn/
 Udemy | https://www.udemy.com/
 coursera | https://www.coursera.org/
+创造狮导航 | http://chuangzaoshi.com/
 
 ## 思想
 
