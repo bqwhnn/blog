@@ -40,11 +40,14 @@ coursera | https://www.coursera.org/
 
 ## 思想
 
-name | link 
+name | think 
 :-: | :-:
 活着 | https://book.douban.com/subject/4913064/
 黑客与画家 | https://book.douban.com/subject/25724948/
 嫌疑人X的献身 | https://book.douban.com/subject/3211779/
+The 5 Second Rule | 5-4-3-2-1.action!!!<br>如果你有一个冲动去做一个目标，你必须在 5 秒内移动你的身体去做，要不然的话你的大脑就会抹杀这个想法。
+别闹了，费曼先生 | 学习没有捷径，需要多领悟，多实践
+费曼思维 | 有效的学习需要思考，学习没有方法论，被动的遵循别人的学习方法作用不大，学习从来都是主动的，有效的学习方法需要通过自己实践和总结。<br>一个关键点：思考
 
 ## 健康
 
