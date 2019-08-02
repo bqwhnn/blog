@@ -26,8 +26,6 @@ MySQL必知必会 | https://book.douban.com/subject/3354490/ | ★
 UNIX编程艺术 | https://book.douban.com/subject/1467587/ |
 代码大全（第2版） | https://book.douban.com/subject/1477390/ | 
 Google paper | The Google File System<br>Bigtable<br>Google MapReduce |
-语义化版本 2.0.0 | https://semver.org/lang/zh-CN/
-
 
 
 ## 网站
@@ -38,6 +36,8 @@ name | link
 Udemy | https://www.udemy.com/
 coursera | https://www.coursera.org/
 创造狮导航 | http://chuangzaoshi.com/
+open source license | https://choosealicense.com/
+语义化版本 2.0.0 | https://semver.org/lang/zh-CN/
 
 ## 思想
 
