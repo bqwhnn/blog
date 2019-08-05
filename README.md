@@ -28,7 +28,6 @@ UNIX编程艺术 | https://book.douban.com/subject/1467587/ |
 Google paper | The Google File System<br>Bigtable<br>Google MapReduce |
 
 
-
 ## 网站
 
 name | link
@@ -37,6 +36,8 @@ name | link
 Udemy | https://www.udemy.com/
 coursera | https://www.coursera.org/
 创造狮导航 | http://chuangzaoshi.com/
+open source license | https://choosealicense.com/
+语义化版本 2.0.0 | https://semver.org/lang/zh-CN/
 
 ## 思想
 
