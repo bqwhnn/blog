@@ -33,6 +33,7 @@ Google paper | The Google File System<br>Bigtable<br>Google MapReduce |
 name | link
 :-: | :-:
 酷壳 – COOLSHELL | https://coolshell.cn/
+Medium | https://medium.com/
 Udemy | https://www.udemy.com/
 coursera | https://www.coursera.org/
 创造狮导航 | http://chuangzaoshi.com/
