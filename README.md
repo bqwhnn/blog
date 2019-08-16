@@ -1,4 +1,9 @@
 
+# 记录
+
+## 开源许可证
+
+![LICENSE](https://github.com/bqwhnn/bqwhnn.github.io/blob/master/resourses/LICENSE.png?raw=true)
 
 # 阅读记录
 
