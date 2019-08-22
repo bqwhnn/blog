@@ -44,6 +44,8 @@ coursera | https://www.coursera.org/
 创造狮导航 | http://chuangzaoshi.com/
 open source license | https://choosealicense.com/
 语义化版本 2.0.0 | https://semver.org/lang/zh-CN/
+去图片背景 | https://www.remove.bg/
+GeoGebra 数学应用 | https://www.geogebra.org/
 
 ## 思想
 
