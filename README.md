@@ -1,12 +1,6 @@
 
 # 记录
 
-## 开源许可证
-
-![LICENSE](https://github.com/bqwhnn/bqwhnn.github.io/blob/master/resourses/LICENSE.png?raw=true)
-
-# 阅读记录
-
 ## 技术
 
 name | link | progress
@@ -43,6 +37,7 @@ Udemy | https://www.udemy.com/
 coursera | https://www.coursera.org/
 创造狮导航 | http://chuangzaoshi.com/
 open source license | https://choosealicense.com/
+如何选择开源许可证？ | http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html
 语义化版本 2.0.0 | https://semver.org/lang/zh-CN/
 去图片背景 | https://www.remove.bg/
 GeoGebra 数学应用 | https://www.geogebra.org/
